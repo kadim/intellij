@@ -20,6 +20,7 @@ import com.goide.execution.application.GoApplicationConfiguration.Kind;
 import com.goide.execution.application.GoApplicationRunConfigurationType;
 import com.goide.execution.application.GoApplicationRunningState;
 import com.goide.util.GoExecutor;
+import com.goide.util.GoCommandLineParameter;
 import com.google.common.base.Splitter;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
@@ -193,7 +194,7 @@ public class BlazeGoRunConfigurationRunner implements BlazeCommandRunConfigurati
 
             @Nullable
             @Override
-            public List<String> getBuildingTarget() {
+            public List<GoCommandLineParameter> getBuildingTarget() {
               return null;
             }
 
