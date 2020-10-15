@@ -35,7 +35,7 @@ import org.jetbrains.plugins.scala.lang.lexer.ScalaTokenTypes;
 import org.jetbrains.plugins.scala.lang.psi.api.expr.ScInfixExpr;
 import org.jetbrains.plugins.scala.lang.psi.api.statements.ScFunctionDefinition;
 import org.jetbrains.plugins.scala.lang.psi.api.toplevel.typedef.ScClass;
-import org.jetbrains.plugins.scala.testingSupport.test.ScalaTestRunLineMarkerProvider;
+import org.jetbrains.plugins.scala.testingSupport.test.ui.ScalaTestRunLineMarkerProvider;
 import org.jetbrains.plugins.scala.testingSupport.test.structureView.TestNodeProvider;
 
 /**

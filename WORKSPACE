@@ -97,7 +97,7 @@ http_archive(
         "    visibility = ['//visibility:public'],",
         ")",
     ]),
-    sha256 = "fa9524db2f5b6e42be559ffdab73a963ca06ca057e27a290f5665d38e581764a",
+    sha256 = "61eb876781f3fd75f2d9e76cac192672a02e008725ad9d7ac0fbd4e3dcf25b16",
     url = "https://plugins.jetbrains.com/files/7322/97141/python-ce-202.7319.64.zip",
 )
 
@@ -121,12 +121,12 @@ http_archive(
     build_file_content = "\n".join([
         "java_import(",
         "    name = 'go',",
-        "    jars = glob(['intellij-go/lib/*.jar']),",
+        "    jars = glob(['go/lib/*.jar']),",
         "    visibility = ['//visibility:public'],",
         ")",
     ]),
     sha256 = "c020553701939692d165d3607dd94532f97c48d81435f1cb6d927a6723888327",
-    url = "https://plugins.jetbrains.com/files/9568/97011/go-202.7319.50.zip",
+    url = "https://plugins.jetbrains.com/files/9568/97635/go-202.7660.3.zip",
 )
 
 # Scala plugin for IntelliJ CE. Required at compile-time for scala-specific features.
@@ -140,7 +140,7 @@ http_archive(
         ")",
     ]),
     sha256 = "bbc019e7cde3baf21b11f0abde21f42d4606ca5ca9100b3bdace3292f70cceef",
-    url = "https://plugins.jetbrains.com/files/1347/76628/scala-intellij-bin-2020.1.7.zip",
+    url = "https://plugins.jetbrains.com/files/1347/97067/scala-intellij-bin-2020.2.27.zip",
 )
 
 # Scala plugin for IntelliJ CE. Required at compile-time for scala-specific features.
